@@ -18,3 +18,4 @@ User Accounts: Implement user accounts to allow users to save favorite recipes a
 Advanced Search Filters: Add advanced search filters such as dietary preferences, cooking time, and cuisine type.
 Recipe Recommendations: Incorporate machine learning algorithms to provide personalized recipe recommendations.
 Social Sharing: Enable users to share recipes on social media platforms.
+![Screenshot 2024-03-11 183247](https://github.com/calvinrajesh6/Recipe-Finder/assets/145462164/5751bda1-aa8f-4dcc-bd67-560b5f3666f9)
