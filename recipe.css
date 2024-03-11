@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background-image: url(cooking.jpg); */
+    background: linear-gradient(135deg,#662d8c,#ed1379);
+    /* background-repeat: no-repeat; */
+    background-size: 100vw 100vh;
+    width: 100%;
+    height: 100vh;
+}
+
+h1 {
+    color: #fff; /* Text color */
+    text-shadow: 
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000; /* Shadow offsets to create outline effect */
+}
+
+.container{
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#results{
+    margin-top: 20px;
+}
+.close {
+    position: absolute;
+    width: 30px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: white;
+    right: 0;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#searchb {
+    border: none;
+    outline: none;
+    background-color: orangered;
+    width: 100px;
+    height: 40px;
+    position: relative;
+    border-radius: 10px;
+    margin-left: 548px;
+    border-radius: 100px;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 1;
+}
+
+#searchInput {
+    flex: 1;
+    border: none;
+    outline: none;
+    width: 600px;
+    height: 40px;
+    position: absolute;
+    padding-left: 15px;
+    margin-left: 30px;
+    border-radius: 100px;
+    justify-content: center;
+    z-index: 0;
+}
